@@ -1,4 +1,6 @@
 title: "My Static HTML Site"
 description: "A cleanly managed static site"
+contact_form_action: "https://api.web3forms.com/submit"
+contact_form_access_key: "6e15f1f5-a949-4d38-8daa-f7863ff9e26d"
 baseurl: ""
 url: "https://alianzamartierra.org"

@@ -232,22 +232,22 @@
                   <div class="spacer-xl"></div>
                   <div class="form-component w-form">
                     <form class="contact-form" data-name="Contact 1 Form"
-                      data-wf-element-id="d2fba21f-c474-1a89-1287-5eebf299c670"
-                      data-wf-page-id="67211a3e867f3c3161f625b1" id="wf-form-Contact-1-Form" method="get"
-                      name="wf-form-Contact-1-Form">
+                      action="{{ site.contact_form_action }}" method="POST"
+                      name="Contact-Form">
+                      <input type="hidden" name="access_key" value="{{ site.contact_form_access_key }}" />
                       <div class="name-email-wrapper">
                         <div class="form-field-wrapper"><label class="form-field-label"
-                            for="Contact-1-Name">Name</label><input class="form-input w-input"
-                            data-name="Contact 1 Name" id="Contact-1-Name" maxlength="256" name="Contact-1-Name"
+                            for="Nombre">Name</label><input class="form-input w-input"
+                            data-name="Nombre" id="Nombre" maxlength="256" name="Nombre"
                             placeholder="" required="" type="text" /></div>
                         <div class="form-field-wrapper"><label class="form-field-label"
-                            for="Contact-1-Email">Email</label><input class="form-input w-input"
-                            data-name="Contact 1 Email" id="Contact-1-Email" maxlength="256" name="Contact-1-Email"
+                            for="Email">Email</label><input class="form-input w-input"
+                            data-name="Email" id="Email" maxlength="256" name="Email"
                             placeholder="" required="" type="email" /></div>
                       </div>
                       <div class="form-field-wrapper"><label class="form-field-label"
-                          for="Contact-1-Message">Message</label><textarea class="form-input is-text-area w-input"
-                          data-name="Contact 1 Message" id="Contact-1-Message" maxlength="5000" name="Contact-1-Message"
+                          for="Mensaje">Message</label><textarea class="form-input is-text-area w-input"
+                          data-name="Mensaje" id="Mensaje" maxlength="5000" name="Mensaje"
                           placeholder="Type your message..." required=""></textarea></div><input
                         class="form-button w-button" data-wait="Please wait..."
                         id="w-node-d2fba21f-c474-1a89-1287-5eebf299c684-61f625b1" type="submit" value="Submit" />

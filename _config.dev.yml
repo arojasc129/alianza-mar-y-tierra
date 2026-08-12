@@ -1,2 +1,4 @@
-baseurl = ""
-url = "http://localhost:4000"
+baseurl: ""
+contact_form_action: "https://api.web3forms.com/submit"
+contact_form_access_key: "2517fcf5-43a2-452b-84ee-fee5a3f7676d"
+url: "http://localhost:4000"
