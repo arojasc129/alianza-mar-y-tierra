@@ -1,7 +1,6 @@
 # alianza-mar-y-tierra
 Alianza Mar y Tiera sitio estatico
 
-
 Originalmente creado en Webflow
 
 ## Cómo usar este proyecto
@@ -15,6 +14,10 @@ bundle install
 - **Previsualizar en local (desarrollo):**
 ```bash
 bundle exec jekyll serve --config _config.yml,_config.dev.yml --livereload
+```
+O también:
+```bash
+rake serve
 ```
 Abre http://127.0.0.1:4000 en tu navegador.
 
